@@ -402,3 +402,21 @@ font-size: 50px;
     }
 }
 }
+@media screen and (max-width:500px){
+    .box-1{
+        & >.cedula{
+            width: 100%;
+            & >#img1{
+                width: 200px;
+                height: 90px;
+                left: 0px;
+    }
+            & >#img2{
+                width: 200px;
+                height: 90px;
+                top: -65px;
+                left: 5px;
+    }
+        }
+    }
+}
