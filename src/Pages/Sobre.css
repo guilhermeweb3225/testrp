@@ -1,0 +1,51 @@
+/* Estilo geral para a seção "Sobre Nós" */
+.sobre-nos {
+    padding: 50px 0;
+    background-color: var(--cor1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sobre-nos .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sobre-nos h2 {
+    font-size: 24px;
+    color: var(--cor2);
+    margin-bottom: 20px;
+  }
+  
+  .sobre-nos p {
+    text-align: justify;
+    font-size: 16px;
+    color: #f3f3f3;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .sobre-nos strong {
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .sobre-nos .container {
+      width: 90%;
+      padding: 0 20px;
+    }
+  
+    .sobre-nos h2 {
+      font-size: 2rem;
+    }
+  
+    .sobre-nos p {
+        text-align: left;
+      font-size: 16px;
+      color: rgb(139, 139, 139);
+      font-weight: 600;
+    }
+  }
+  

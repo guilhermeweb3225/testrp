@@ -8,8 +8,8 @@
   font-family: var(--font2);
 }
 :root{
-  --Cor1:#0c0c0c;
-  --cor2:#ffffff;
+  --Cor1:#161616;
+  --cor2:#0003ff;
   --cor3:linear-gradient(0deg,#b57e10,#f9df7b,#f9df7b,#b57e10,#b57e10);
   --font1:"Anton";
   --font2:"Orbitron";
