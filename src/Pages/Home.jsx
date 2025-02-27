@@ -17,9 +17,10 @@ function Home() {
           <h2>
             Desenvolvemos soluções digitais que entregam resultados concretos.
           </h2>
-          <button>
-            Vamos! <img src={arrowR} />
-          </button>
+          <p>Peça um orçamento</p>
+          <a href="https://wa.me/qr/RR43FBXUMCWBD1"target="_blank">
+              Vamos! <img src={arrowR} />
+          </a>
         </div>
         <div className="headline cedula">
           <img src={imgU} id="img1" />
