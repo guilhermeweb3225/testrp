@@ -15,10 +15,10 @@ function Contato(){
                 entre em contato conosco pelas redes sociais abaixo ou pelo WhatsApp!</p>
             </div>
             <div className="redes">
-                <a href="https://www.instagram.com/pixelforgeoficial/"><img src={imgU}/></a>
-                <a href="https://www.tiktok.com/@pixelforge377?is_from_webapp=1&sender_device=pc"><img src={imgD}/></a>
-                <a href="https://www.facebook.com/profile.php?id=61573734592714"><img src={imgT}/></a>
-                <a href="https://wa.me/qr/RR43FBXUMCWBD1"><img src={imgQ}/></a>
+                <a href="https://www.instagram.com/pixelforgeoficial/"target='_blank'><img src={imgU}/></a>
+                <a href="https://www.tiktok.com/@pixelforge377?is_from_webapp=1&sender_device=pc"target='_blank'><img src={imgD}/></a>
+                <a href="https://www.facebook.com/profile.php?id=61573734592714"target='_blank'><img src={imgT}/></a>
+                <a href="https://wa.me/qr/RR43FBXUMCWBD1"target='_blank'><img src={imgQ}/></a>
             </div>
         </section>
         </>
